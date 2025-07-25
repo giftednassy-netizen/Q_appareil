@@ -1,0 +1,120 @@
+body /*style de Q_appareils*/
+{
+	background-color:#b3aeae;
+}
+.menu
+{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	padding:10px;
+	z-index:10;
+	background-color:#f0f0f0;
+}
+.menu a
+{
+	text-decoration:none;
+}
+.menu button
+{
+	font-family:sans-serif;
+	border:none;
+	outline:none;
+	background:transparent;
+	color:#f8f9f9;
+	background-color:#85d8f1;
+	-webkit-transition-duration:1s;
+	transition-duration:1s;
+}
+.menu button:hover
+{
+	color:#903c56;
+	background:#f8f9f9;
+}
+.menu h1
+{
+	font-size:0.7em;
+	color:#7955b3;
+	font-family:italic;
+}
+#corp_principale
+{
+	font-family:Calibri, Arial ,"Arial Black", serif ;
+	text-align:justify;
+	margin-left : 35px ;
+	margin-right :35px ;
+	color:black;
+	background-color:#e6e8fb;
+	font-size:1.1em;
+	padding:15px;
+	padding-top:50px;
+}
+h1
+{
+	color:#1f2033;
+	font-size:1.6em;
+}
+h2
+{
+	color:black;
+	font-size:1.3em;
+}
+h1,h2,h3
+{
+	text-indent:50px;
+}
+em
+{
+	color:blue;
+}
+p
+{
+	text-indent:25px;
+}
+.introduction, .conclusion
+{
+	background-color:#caeaf6;
+	border-left :2px solid blue;
+	padding-left:8px;
+	padding-right:8px;
+}
+footer
+{
+	background-color:#b3aeae;
+}
+img
+{
+	margin:15px;
+}
+.auto  /*pour ajouter un overflow avec une  barre de defile au menu_autres-appreils*/
+{
+width : 250px ;
+height : 250px ;
+overflow: auto; 
+}
+table 
+{
+width: 100%;
+border-collapse: collapse;
+margin-top: 10px;
+}
+th, td 
+{
+border: 1px solid #ccc;
+padding: 5px;
+text-align: left;
+}
+th 
+{
+background-color: #eee;
+}
+.consulter_autres
+{
+	border:2px red solid;
+	margin:5px;
+	padding:5px;
+	text-align:justify;
+	background-color:#f6cdd4;
+	text-indent:25px;
+}
